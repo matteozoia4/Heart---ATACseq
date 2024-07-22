@@ -1,0 +1,5 @@
+hub OSTERWALDER LAB - ATAC-seq 
+shortLabel ATAC-seq - Heart Tissue
+longLabel Full Heart (Abassah-Oppong) + EC(Pu 2021) + CM(Pu 2021) + Gata4-TNT-TIE2-ko-het(Pu 2021)
+genomesFile genomes.txt 
+email  matteo.zoia@dbmr.unibe.ch
