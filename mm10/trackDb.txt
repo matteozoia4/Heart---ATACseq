@@ -319,5 +319,66 @@ color 255,51,51
 
 
 
+track E12.5_Heart_ATACseq_GSE88789_ZhouP
+    container multiWig
+    shortLabel E12.5_Heart_rep1_rep2_OverlayTrack
+    longLabel ATACseq_GSE88789_ZhouP_GSM2346470_GSM2346471_E12.5_Heart_rep1_rep2
+    type bigWig 0 30000
+    configurable on
+    visibility full
+    windowingFunction mean+whiskers
+    viewLimits 0.816622:10
+    viewLimitsMax 0.816622:124.127
+    maxHeightPixels 128:30:11
+    aggregate transparentOverlay
+    showSubtrackColorOnUi on
+    autoScale off
+    smoothingWindow off
+    yLineOnOff off
+    yLineMark 1
+    gridDefault off
+    
+    
+        track E12.5_Heart_rep1_ATACseq_Profile
+        parent E12.5_Heart_ATACseq_GSE88789_ZhouP
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721359737527b513bf065/display?to_ext=bigwig
+        shortLabel E12.5_Heart_rep1_Track_Profile
+        longLabel ATACseq_E12.5_Heart_rep1_Track_Profile
+        type bigWig
+        color 255,0,0 
+          
+
+        track E12.5_Heart_rep2_ATACseq_Profile
+        parent E12.5_Heart_ATACseq_GSE88789_ZhouP
+        bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a47213511937133ce063ae3/display?to_ext=bigwig
+        shortLabel E12.5_Heart_rep2_Track_Profile
+        longLabel ATACseq_E12.5_Heart_rep2_Track_Profile
+        type bigWig
+        color 255,51,51
+
+
+
+
+track E12.5_Heart_rep2_ATACseq_Peaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a4721352c9a2617827c0a05/display?to_ext=bigbed
+itemRgb on
+shortLabel E12.5_Heart_rep2_Track_Peaks 
+longLabel ATACseq_GSE88789_ZhouP_GSM2346471_E12.5_Heart_rep2     
+type bigBed 3 +
+configurable on
+visibility dense
+color 255,0,0       
+
+track E12.5_Heart_rep1_ATACseq_Peaks
+bigDataUrl https://usegalaxy.org/api/datasets/f9cad7b01a472135c46b72efe4f84e39/display?to_ext=bigbed
+itemRgb on
+shortLabel E12.5_Heart_rep1_Track_Peaks
+longLabel ATACseq_GSE88789_ZhouP_GSM2346470_E12.5_Heart_rep1      
+type bigBed 3 +
+configurable on
+visibility dense
+color 255,51,51
+
+
 
 
