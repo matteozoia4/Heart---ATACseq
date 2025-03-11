@@ -16,7 +16,7 @@ track ATACseq_Heart_E11.5_Abassah_2024_GSE232887_PROFILES_OVERLAY
     longLabel ATACseq_Heart_E11.5_Abassah_2024_GSE232887
     type bigWig 0 30000
     configurable on
-    visibility full
+    visibility dense
     windowingFunction mean+whiskers
     viewLimits 0:15
     viewLimitsMax 0:124.127
@@ -62,7 +62,7 @@ track EC_ATACseq_Heart_E12.5_Pu_2021_GSE156001_PROFILES_OVERLAY
     longLabel EC_ATACseq_Heart_E12.5_Pu_2021_GSE156001
     type bigWig 0 30000
     configurable on
-    visibility full
+    visibility dense
     windowingFunction mean+whiskers
     viewLimits 0:20
     viewLimitsMax 0:20
@@ -107,7 +107,7 @@ track CM_ATACseq_Heart_E12.5_Pu_2021_GSE156001_PROFILES_OVERLAY
     longLabel CM_ATACseq_Heart_E12.5_Pu_2021_GSE156001
     type bigWig 0 30000
     configurable on
-    visibility full
+    visibility dense
     windowingFunction mean+whiskers
     viewLimits 0:20
     viewLimitsMax 0:20
@@ -154,7 +154,7 @@ track GSE156001_Pu_2021_GSM4718824_GSM4718825_GSM4718826_E12.5_G4het_ATAC_rep2_3
     longLabel Gata4_ChIPseq_Heart_E12.5_Pu_2021_GSE156001
     type bigWig 0 30000
     configurable on
-    visibility full
+    visibility dense
     windowingFunction mean+whiskers
     viewLimits 0:20
     viewLimitsMax 0:20
@@ -215,7 +215,7 @@ track GSE156001_Pu_2021_GSM4718827_GSM4718828_GSM4718829_E12.5_G4ko_ATAC_rep2_3_
     longLabel Gata4_ChIPseq_Heart_E12.5_Pu_2021_GSE156001
     type bigWig 0 30000
     configurable on
-    visibility full
+    visibility dense
     windowingFunction mean+whiskers
     viewLimits 0:20
     viewLimitsMax 0:20
@@ -263,7 +263,7 @@ track E12.5_Heart_ATACseq_GSE88789_ZhouP
     longLabel ATACseq_GSE88789_ZhouP_GSM2346470_GSM2346471_E12.5_Heart_rep1_rep2
     type bigWig 0 30000
     configurable on
-    visibility full
+    visibility dense
     windowingFunction mean+whiskers
     viewLimits 0.816622:10
     viewLimitsMax 0.816622:124.127
